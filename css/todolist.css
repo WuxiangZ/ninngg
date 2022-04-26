@@ -1,0 +1,68 @@
+.todolist-body {margin:0;padding:0;font-size:16px;background: #CDCDCD;height: 100%;width: 642px;
+overflow: scroll;
+}
+
+header {height:30px;background:#333;background:rgba(47,47,47,0.98);}
+
+section{margin:0 auto;
+position: relative;}
+
+label{
+	margin-top: 2px;
+	margin-left: 10px;
+	float:left;width:100px;line-height:26px;color:#DDD;font-size:18px;cursor:pointer;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+}
+header input{
+	position: absolute;
+	width:40%;
+	height:22px;
+	left: 150px;
+	top: 3px;
+	text-indent:10px;
+	border-radius:5px;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+	border:none;
+}
+
+input:focus{outline-width:0}
+.do-and-done{
+	display: flex;
+}
+div.almost{
+	width: 321px;
+	padding: 0 10px;
+}
+div.spilt-line{
+	border-left: 1px dotted red;
+	height: 100%;
+	width: 1px;
+}
+
+section h2{position:relative;}
+section span{position:absolute;top:2px;right:5px;display:inline-block;padding:0 5px;height:18px;border-radius:18px;background:#E6E6FA;line-height:20px;text-align:center;color:#666;font-size:14px;}
+section ol,ul{padding:0;list-style:none;
+}
+
+
+section li input{position:absolute;left:6px;width:14px;height:14px;cursor:pointer;}
+
+section p{margin: 0;}
+
+section li p input{width:70%;height:14px;line-height:14px;text-indent:5px;font-size:14px;}
+
+section li{height:22px;
+	width: 200px!important;
+	line-height:20px;
+	background: #fff;
+	position:relative;
+	margin-bottom: 4px;
+	padding:0 30px;
+	border-radius:3px;
+	border-left: 5px solid #629A9C;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.07);}
+
+section ol li{cursor:move;}
+section ul li{border-left: 5px solid #999;opacity: 0.5;}
+
+section li a{position:absolute;top:1px;right:5px;display:inline-block;width:10px;height:10px;border-radius:10px;border:4px double #FFF;background:#CCC;line-height:14px;text-align:center;color:#FFF;font-weight:bold;font-size:14px;cursor:pointer;} 

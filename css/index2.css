@@ -1,0 +1,160 @@
+/* 主目录背景区域 */
+.campusEx{
+    /* background-image: url('../MiPics/cube/107.jpg'); */
+    background-size: cover;
+    background-position-y: -228px;
+  /* linear-gradient(rgba(230, 230, 230, 0.8), rgba(230, 220, 210, 0.8)) */
+}
+
+.MajorCourse{
+    background-image: url('../MiPics/bg.png');
+    background-size: cover;
+}
+
+.JudgeMyself{
+    background-image: url('../MiPics/pixa/004.webp');
+    background-position-y: -150px;
+    background-size: cover;
+}
+
+.MyselfIntro{
+    background-image: url('../MiPics/cube/201.jpg');
+    background-size: cover;
+}
+
+
+/* 文字渐入特效区 */
+.landIn{
+    display: flex;
+    flex-flow: wrap;
+    white-space: pre;
+}
+
+div.landIn span{
+    animation: landIn 0.8s ease-out both;
+  }
+  
+@keyframes landIn{
+    from {
+      opacity: 0;
+      /* 透明度决定显示效果 */
+      transform: translateY(-20%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      /* 文字落差效果 */
+    }
+  }
+
+  /* 新的总体样式 */
+.innerText{
+  padding: 3px;
+  box-sizing: border-box;
+  width: 392px;
+  line-height: 22px;
+  font-size: 18px;
+  font-family: myfont2;
+  font-weight: 800;
+}
+.innerText i{
+  margin-left: 30px;
+}
+.innerText div{
+  margin-top: 10px;
+  margin-left: 13px;
+  
+}
+
+.innerText div li{
+  font-weight: 600;
+  list-style: circle;
+  margin: 5px 0 0 40px;
+  font-size: 16px;
+}
+.Slam .rightDrag .innerImage{
+    background-color: white;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Slam .rightDrag .innerImage img{
+  width: 330px;
+  height: 330px;
+}
+
+.NLMS .rightDrag .innerImage img.weina{
+    width: 392px;
+    height: 185px;
+}
+
+.NLMS .rightDrag .innerImage img.liuchen{
+  width: 392px;
+  height: 316px;
+}
+
+.program .rightDrag .Pymatplotlib{
+    display: flex;
+    width: 392px;
+    flex-wrap: wrap;
+    height: 281px;
+    margin-top: 18px;
+    font-family: myfont;
+    margin-bottom: 3px;
+}
+/* 设置散点图格式 */
+.program .rightDrag .Pymatplotlib .Pyscatter{
+    width: 100%;
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.program .rightDrag .Pymatplotlib li img{
+    width: 196px;
+    height: 140.5px;
+}
+.Hanxin .innerText i{
+  margin-right: 5px;
+}
+.Hanxin .innerText{
+  font-size: 18px;
+}
+
+/* 地图下载器 */
+.Qtdesigner .runPics{
+  width: 392px;
+  height: 323.4px;
+}
+.Qtdesigner .runPics .weina{
+  margin-top: 10px;
+}
+
+.Qtdesigner .codePics li img{
+  width: 392px;
+  margin-top: 10px;
+}
+
+.Qtdesigner .innerText{
+  width: 392px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.MapsDownload i{
+  margin-right: 5px;
+}
+.MapsDownload a{
+  color: cornflowerblue;
+}
+
+/* 喷人软件 */
+.outerImg li img{
+  width: 392px;
+}
+
+footer{color:#666;font-size:14px;text-align:center;margin-top: 5px;margin-bottom: 5px;}
+footer a{color:#666;text-decoration:none;color:#999;}
